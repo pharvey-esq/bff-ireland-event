@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ireland 2019: A Case Study in How the Left Abuses Soft International Law | Ben Franklin Fellowship</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --cream: #f7f3eb;
+      --cream-dark: #efeae0;
+      --gold: #8b7355;
+      --text: #2c2c2c;
+      --muted: #6b6560;
+      --accent: #5c4a32;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Source Sans 3', system-ui, sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .header {
+      background: #fff;
+      border-bottom: 1px solid #e8e2d8;
+      padding: 16px 0;
+    }
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .logo img {
+      height: 56px;
+      width: 56px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .logo-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+    .nav a {
+      color: var(--gold);
+      text-decoration: none;
+      font-size: 0.85rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .hero {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 48px 24px 32px;
+    }
+    .eyebrow {
+      color: var(--gold);
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    .subtitle {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 720px;
+      margin-bottom: 32px;
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 24px;
+      padding: 24px 0;
+      border-top: 1px solid #e0d9ce;
+      border-bottom: 1px solid #e0d9ce;
+      margin-bottom: 24px;
+    }
+    .meta-label {
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 4px;
+    }
+    .meta-value { font-weight: 500; }
+    .btn {
+      display: inline-block;
+      background: #9a8b76;
+      color: #fff;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border-radius: 2px;
+      margin-top: 8px;
+    }
+    .section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 48px 24px;
+    }
+    .section-label {
+      color: var(--gold);
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    .person {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 24px;
+      padding: 28px 0;
+      border-bottom: 1px solid #e0d9ce;
+    }
+    .person:last-child { border-bottom: none; }
+    .person img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .person-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.35rem;
+      margin-bottom: 4px;
+    }
+    .person-role {
+      font-size: 0.75rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+    .person-bio { color: var(--muted); font-size: 0.95rem; margin-bottom: 12px; }
+    .links a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-right: 16px;
+      border-bottom: 1px solid transparent;
+    }
+    .links a:hover { border-bottom-color: var(--accent); }
+    .livestream {
+      background: #1a1a1a;
+      border-radius: 4px;
+      aspect-ratio: 16/9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .play-icon {
+      width: 64px;
+      height: 64px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 0.8rem;
+      border-top: 1px solid #e0d9ce;
+    }
+    footer a { color: var(--gold); }
+    @media (max-width: 600px) {
+      .person { grid-template-columns: 1fr; }
+      .person img { width: 100%; height: 220px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="https://www.benfranklinfellowship.org" class="logo">
+        <img src="images/u8b6d.jpg" alt="Ben Franklin Fellowship">
+        <div class="logo-text">The Ben Franklin<br>Fellowship</div>
+      </a>
+      <nav class="nav"><a href="https://www.benfranklinfellowship.org/events">Events &rsaquo;</a></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">The Ben Franklin Fellowship · Panel Discussion</div>
+      <h1>Ireland 2019: A Case Study in How the Left Abuses Soft International Law to Press Its Social Agenda</h1>
+      <p class="subtitle">A panel discussion examining the role of nonbinding international legal instruments and institutions in Ireland’s social-policy debates.</p>
+      <div class="meta">
+        <div>
+          <div class="meta-label">Date</div>
+          <div class="meta-value">Thursday, March 18, 2027</div>
+        </div>
+        <div>
+          <div class="meta-label">Time</div>
+          <div class="meta-value">10:00 a.m.</div>
+        </div>
+        <div>
+          <div class="meta-label">Location</div>
+          <div class="meta-value">To be announced</div>
+        </div>
+      </div>
+      <a href="#" class="btn">TICFOX Registration Coming Soon</a>
+    </section>
+
+    <section class="section">
+      <div class="section-label">Leading the Discussion</div>
+      <h2>Moderator</h2>
+      <div class="person">
+        <img src="images/OYoIT.jpg" alt="Mary Vigil">
+        <div>
+          <div class="person-name">Mary Vigil</div>
+          <div class="person-role">BFF Member · Deputy Staff Director, Congressional-Executive Commission on China</div>
+          <p class="person-bio">Mary Vigil serves as Deputy Staff Director of the Congressional-Executive Commission on China and previously worked as a congressional national security and foreign policy adviser and as a political appointee at USAID.</p>
+          <div class="links">
+            <a href="#" data-bio="vigil">Bio</a>
+            <a href="#" data-remarks="vigil">Remarks</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="section-label">Featured Voices</div>
+      <h2>Panelists</h2>
+      <p style="color: var(--muted); margin-bottom: 16px; font-size: 0.95rem;">Biographies link to the speakers’ Fellowship or public profiles.</p>
+
+      <div class="person">
+        <img src="images/CrYu1.jpg" alt="Piero Tozzi">
+        <div>
+          <div class="person-name">Piero Tozzi</div>
+          <div class="person-role">BFF Fellow · Confirmed</div>
+          <p class="person-bio">Senior Director for China Policy at the America First Policy Institute; former Staff Director of the Congressional-Executive Commission on China.</p>
+          <div class="links">
+            <a href="#" data-bio="tozzi">Bio</a>
+            <a href="#" data-remarks="tozzi">Remarks</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="person">
+        <img src="images/G1dlI.jpg" alt="Ian Paisley Jr.">
+        <div>
+          <div class="person-name">Ian Paisley Jr.</div>
+          <div class="person-role">Former DUP Member of Parliament · Confirmed</div>
+          <p class="person-bio">Former Member of Parliament for North Antrim and former member of the Northern Ireland Assembly at Stormont.</p>
+          <div class="links">
+            <a href="#" data-bio="paisley">Bio</a>
+            <a href="#" data-remarks="paisley">Remarks</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="person">
+        <img src="images/OFxAl.jpg" alt="Carol Nolan, TD">
+        <div>
+          <div class="person-name">Carol Nolan, TD</div>
+          <div class="person-role">Independent TD, Offaly · Tentative</div>
+          <p class="person-bio">Member of Dáil Éireann representing Offaly; first elected to the Irish parliament in 2016.</p>
+          <div class="links">
+            <a href="#" data-bio="nolan">Bio</a>
+            <a href="#" data-remarks="nolan">Remarks</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="person">
+        <img src="images/nIqIz.jpg" alt="Max Primorac">
+        <div>
+          <div class="person-name">Max Primorac</div>
+          <div class="person-role">BFF Fellow · Confirmed</div>
+          <p class="person-bio">Senior Research Fellow at The Heritage Foundation; former senior USAID official and U.S. Vice President’s Envoy to Iraq.</p>
+          <div class="links">
+            <a href="#" data-bio="primorac">Bio</a>
+            <a href="#" data-remarks="primorac">Remarks</a>
+          </div>
+        </div>
+      </div>
+      <p style="color: var(--muted); font-size: 0.85rem; margin-top: 16px;">Remarks links will be added as materials become available.</p>
+    </section>
+
+    <section class="section">
+      <div class="section-label">Watch Online</div>
+      <h2>Event Livestream</h2>
+      <p style="color: var(--muted); margin-bottom: 8px;">The livestream will appear here when the event begins.</p>
+      <div class="livestream" id="livestream">
+        <div class="play-icon">▶</div>
+        <div>Livestream player coming soon</div>
+        <div style="font-size: 0.85rem; opacity: 0.7;">March 18, 2027 · 10:00 a.m.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © The Ben Franklin Fellowship · <a href="https://www.benfranklinfellowship.org">Official website</a>
+  </footer>
+
+  <script>
+    const contentUrl = "content.json";
+
+    async function loadContent() {
+      try {
+        const res = await fetch(contentUrl);
+        if (!res.ok) throw new Error("Failed to load content");
+        const data = await res.json();
+
+        if (data.event) {
+          const e = data.event;
+          if (e.title) document.querySelector("h1").textContent = e.title;
+          if (e.subtitle) document.querySelector(".subtitle").textContent = e.subtitle;
+          if (e.registrationUrl && e.registrationText) {
+            const btn = document.querySelector(".btn");
+            btn.href = e.registrationUrl;
+            btn.textContent = e.registrationText;
+          }
+          if (e.livestreamUrl) {
+            document.getElementById("livestream").innerHTML = `
+              <iframe src="${e.livestreamUrl}" style="width:100%;height:100%;border:0;" allowfullscreen></iframe>`;
+          }
+        }
+
+        if (data.speakers) {
+          Object.keys(data.speakers).forEach(id => {
+            const speaker = data.speakers[id];
+            if (speaker.imageUrl) {
+              const img = document.querySelector(`img[alt="${speaker.name}"]`);
+              if (img) img.src = speaker.imageUrl;
+            }
+          });
+        }
+
+        document.querySelectorAll("[data-bio], [data-remarks]").forEach(link => {
+          link.addEventListener("click", (ev) => {
+            ev.preventDefault();
+            const id = link.dataset.bio || link.dataset.remarks;
+            const speaker = data.speakers?.[id];
+            if (!speaker) {
+              alert("Content coming soon.");
+              return;
+            }
+            if (link.dataset.bio && speaker.bioUrl) {
+              window.open(speaker.bioUrl, "_blank");
+            } else if (link.dataset.bio && speaker.fullBio) {
+              if (speaker.fullBio.startsWith("http")) {
+                window.open(speaker.fullBio, "_blank");
+              } else {
+                alert(speaker.fullBio);
+              }
+            } else if (link.dataset.remarks && speaker.remarks) {
+              alert(speaker.remarks);
+            } else {
+              alert("Content coming soon.");
+            }
+          });
+        });
+      } catch (err) {
+        console.warn("Could not load remote content (using built-in defaults):", err);
+      }
+    }
+
+    loadContent();
+  </script>
+</body>
+</html>
