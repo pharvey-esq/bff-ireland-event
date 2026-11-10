@@ -1,1 +1,57 @@
-{"event":{"title":"Ireland 2019: A Case Study in How the Left Abuses Soft International Law to Press Its Social Agenda","subtitle":"A panel discussion examining the role of nonbinding international legal instruments and institutions in Ireland’s social-policy debates.","date":"Thursday, March 18, 2027","time":"10:00 a.m.","location":"To be announced","registrationUrl":"#","registrationText":"TICFOX Registration Coming Soon","livestreamUrl":"","livestreamNote":"Livestream player coming soon"},"speakers":{"vigil":{"name":"Mary Vigil","role":"BFF Member · Deputy Staff Director, Congressional-Executive Commission on China","shortBio":"Mary Vigil serves as Deputy Staff Director of the Congressional-Executive Commission on China and previously worked as a congressional national security and foreign policy adviser and as a political appointee at USAID.","fullBio":"","remarks":"","imageUrl":"https://drive.google.com/uc?export=view&id=1qhJELL6mGvB6XJm3tyFvdPSx_6KZn7Ib"},"tozzi":{"name":"Piero Tozzi","role":"BFF Fellow · Confirmed","shortBio":"Senior Director for China Policy at the America First Policy Institute; former Staff Director of the Congressional-Executive Commission on China.","fullBio":"https://share.google/rnaOB2q1tjkyFnyUw","remarks":"","imageUrl":"","bioUrl":"https://share.google/rnaOB2q1tjkyFnyUw"},"paisley":{"name":"Ian Paisley Jr.","role":"Former DUP Member of Parliament · Confirmed","shortBio":"Former Member of Parliament for North Antrim and former member of the Northern Ireland Assembly at Stormont.","fullBio":"","remarks":"","imageUrl":"https://drive.google.com/uc?export=view&id=1nAlGY_j1hccVcEGrK_DaiSwJTl7NSd_K"},"nolan":{"name":"Carol Nolan, TD","role":"Independent TD, Offaly · Tentative","shortBio":"Member of Dáil Éireann representing Offaly; first elected to the Irish parliament in 2016.","fullBio":"","remarks":"","imageUrl":"https://drive.google.com/uc?export=view&id=1Aogk88v-rpfvEUNhbCZvZQ74ggqme2Lc"},"primorac":{"name":"Max Primorac","role":"BFF Fellow · Confirmed","shortBio":"Senior Research Fellow at The Heritage Foundation; former senior USAID official and U.S. Vice President’s Envoy to Iraq.","fullBio":"https://www.benfranklinfellowship.org/max-primorac","remarks":"","imageUrl":"","bioUrl":"https://www.benfranklinfellowship.org/max-primorac"}}}
+{
+  "event": {
+    "title": "Ireland 2019: A Case Study in How the Left Abuses Soft International Law to Press Its Social Agenda",
+    "subtitle": "A panel discussion examining the role of nonbinding international legal instruments and institutions in Ireland’s social-policy debates.",
+    "date": "Thursday, March 18, 2027",
+    "time": "10:00 a.m.",
+    "location": "To be announced",
+    "registrationUrl": "#",
+    "registrationText": "TICFOX Registration Coming Soon",
+    "livestreamUrl": "",
+    "livestreamNote": "Livestream player coming soon"
+  },
+  "speakers": {
+    "vigil": {
+      "name": "Mary Vigil",
+      "role": "BFF Member · Deputy Staff Director, Congressional-Executive Commission on China",
+      "shortBio": "Mary Vigil serves as Deputy Staff Director of the Congressional-Executive Commission on China and previously worked as a congressional national security and foreign policy adviser and as a political appointee at USAID.",
+      "fullBio": "",
+      "remarks": "",
+      "imageUrl": "https://drive.google.com/uc?export=view&id=1qhJELL6mGvB6XJm3tyFvdPSx_6KZn7Ib"
+    },
+    "tozzi": {
+      "name": "Piero Tozzi",
+      "role": "BFF Fellow · Confirmed",
+      "shortBio": "Senior Director for China Policy at the America First Policy Institute; former Staff Director of the Congressional-Executive Commission on China.",
+      "fullBio": "https://share.google/rnaOB2q1tjkyFnyUw",
+      "remarks": "",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/6638579d3123ee4713405878/020b821b-c5c5-4b95-bba7-7ff06547efdb/tozzi.jpg",
+      "bioUrl": "https://share.google/rnaOB2q1tjkyFnyUw"
+    },
+    "paisley": {
+      "name": "Ian Paisley Jr.",
+      "role": "Former DUP Member of Parliament · Confirmed",
+      "shortBio": "Former Member of Parliament for North Antrim and former member of the Northern Ireland Assembly at Stormont.",
+      "fullBio": "",
+      "remarks": "",
+      "imageUrl": "https://drive.google.com/uc?export=view&id=1nAlGY_j1hccVcEGrK_DaiSwJTl7NSd_K"
+    },
+    "nolan": {
+      "name": "Carol Nolan, TD",
+      "role": "Independent TD, Offaly · Tentative",
+      "shortBio": "Member of Dáil Éireann representing Offaly; first elected to the Irish parliament in 2016.",
+      "fullBio": "",
+      "remarks": "",
+      "imageUrl": "https://drive.google.com/uc?export=view&id=1Aogk88v-rpfvEUNhbCZvZQ74ggqme2Lc"
+    },
+    "primorac": {
+      "name": "Max Primorac",
+      "role": "BFF Fellow · Confirmed",
+      "shortBio": "Senior Research Fellow at The Heritage Foundation; former senior USAID official and U.S. Vice President’s Envoy to Iraq.",
+      "fullBio": "https://www.benfranklinfellowship.org/max-primorac",
+      "remarks": "",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/6638579d3123ee4713405878/1c10b932-9ea9-4047-9ee3-d4ab653259bb/primoracm.png",
+      "bioUrl": "https://www.benfranklinfellowship.org/max-primorac"
+    }
+  }
+}
